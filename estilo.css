@@ -1,5 +1,5 @@
 body {
-  background: hsl(268, 100%, 84%);
+  background: rgb(255, 255, 255);
 }
 h1 {
   text-align: center;
@@ -8,19 +8,19 @@ h1 {
   position: absolute;
   position: fixed;
   position: sticky;
-  */
+*/
 .caixa1 {
   position: relative;
   width: 200px;
   height: 200px;
-  background: #ffe59c;
+  background: rgb(255, 255, 255);
   left: 50px;
 }
-.MenuPrincipal {
+.menuPrincipal {
   position: absolute;
-  background: salmon;
+  background: rgb(27, 59, 35);
   width: 100%;
-  height: 100px;
+  height: 45px;
   top: 0;
 }
 nav ul {
@@ -30,16 +30,75 @@ nav ul {
   overflow: 0;
 }
 li {
-  float: left
+  float: left;
 }
 li a {
   display: block;
-  color: rgb(216, 214, 191);
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 li a:hover {
-  background-color: turquoise;
+  background: rgba(255, 200, 48, 0.589);
 }
+.boxImage {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  background: rgb(27, 59, 35);
+  top: 45px;
+  left: 0;
+  margin: 20px;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  padding: 10px;
+  display: flex;
+  justify-content:center;
+}
+#mar {
+  width: 440px;
+  height: 300px;
+}
+.rodape {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  color: white;
+  background: rgb(27, 59, 35);
+  left: 0;
+  bottom: -180px;
+  display: flex;
+  justify-content: center;
+}
+.conteudoHome {
+  position: absolute;
+  top: 45px;
+}
+#imagemHome {
+  width: 600px;
+  height: 310px;
+}
+
+p {
+  font-size: x-large;
+}
+
+.paginaUm {
+  position: absolute;
+  top: 100px;
+  left: 500px;
+}
+
+.paginaDois {
+  position: absolute;
+  top: 100px;
+}
+
+
+
+
+
+
